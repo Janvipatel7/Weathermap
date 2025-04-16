@@ -17,13 +17,13 @@ check.addEventListener("click" , ()=> {
             return res.json()
         }).then((res) => {
             console.log(res);
-            temp.innerHTML = `${res.main.temp}`;
+            temp.innerHTML = `${res.main.temp}&#8451;`;
             icon.src = `https://openweathermap.org/img/wn/${res.weather[0].icon}@2x.png`;
             console.log(icon);
             weatherDesc.innerHTML = res.weather[0].description;
             loc.innerHTML = res.name;
-            feelsLike.innerHTML = `${res.main.feels_like}<h5 id="feelsLike"> Feels Like </h5>`;
-            humidity.innerHTML = res.main.humidity;
+            feelsLike.innerHTML = `${res.main.feels_like}&#8451;`;
+            humidity.innerHTML = `${res.main.humidity}%`;
             console.log(res);
             
         })

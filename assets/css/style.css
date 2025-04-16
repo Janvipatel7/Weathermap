@@ -1,11 +1,27 @@
 .box {
-   padding: 5px;
+   padding: 20px;
    width: 300px;
    border-width: medium;
-   border-radius: 15px;
-   background:#4a84f4;
+   border-radius: 10px;
+   background:#143169e1;
    box-shadow:0 0 7px  white 0;
 }
 .bg{
     background-color: #a9d2fd;
+}
+.search-btn::placeholder{
+    color: rgba(128, 128, 128, 0.764);
+}
+.search-btn:hover{
+    outline: 2px solid #ffc107;
+    cursor: pointer;
+}
+.check-btn{
+    font-size: 17px;
+}
+.check-btn:hover{
+    background-color: rgba(0, 0, 0, 0.38);
+    outline: 2px solid #ffc107;
+    color: #ffc107;
+    font-size: 17px;
 }
