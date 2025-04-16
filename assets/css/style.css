@@ -10,18 +10,30 @@
     background-color: #a9d2fd;
 }
 .search-btn::placeholder{
-    color: rgba(128, 128, 128, 0.764);
-}
+    color: rgba(128, 128, 128, 0.829);
+    font-size: 14px;
+}   
 .search-btn:hover{
     outline: 2px solid #ffc107;
     cursor: pointer;
 }
 .check-btn{
-    font-size: 17px;
+    font-size: 12px;
 }
 .check-btn:hover{
     background-color: rgba(0, 0, 0, 0.38);
     outline: 2px solid #ffc107;
     color: #ffc107;
-    font-size: 17px;
+    font-size: 12px;
+}
+.t-3{
+    font-size: 13px;
+}
+.back-btn{
+    outline: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.back-btn:hover{
+    outline: 2px solid #ffc107;
 }
