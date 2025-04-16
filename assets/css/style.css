@@ -9,8 +9,13 @@
 .bg{
     background-color: #a9d2fd;
 }
+.search-btn{
+    border: 2px solid #ffc107;
+    background-color: #143169e1;
+    color: white;
+}
 .search-btn::placeholder{
-    color: rgba(128, 128, 128, 0.829);
+    color: rgba(248, 243, 243, 0.705);
     font-size: 14px;
 }   
 .search-btn:hover{
@@ -36,4 +41,15 @@
 }
 .back-btn:hover{
     outline: 2px solid #ffc107;
+}
+
+.form-control:focus {
+    background: none;
+    box-shadow: none;
+    outline: none;
+    border-color: white;
+    color: white;
+}
+.f-5{
+    font-size: 12px;
 }
